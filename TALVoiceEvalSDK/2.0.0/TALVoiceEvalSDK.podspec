@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Billyhq/TALVoiceEvalSDK.git", :tag => s.version }
 
   s.platform     = :ios, '8.0'
-  s.source_files = 'heads/*.h'
+  s.public_header_files = 'heads/*.h' 
   s.vendored_libraries = 'libs/*.a'
 end
