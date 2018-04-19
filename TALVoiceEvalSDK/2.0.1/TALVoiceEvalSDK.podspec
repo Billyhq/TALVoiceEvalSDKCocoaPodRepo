@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Billyhq/TALVoiceEvalSDK.git", :tag => s.version }
 
   s.platform     = :ios, '8.0'
+  s.frameworks   = 'TALVoiceEvalSDK.framwork'
   s.vendored_frameworks = 'frameworks/TALVoiceEvalSDK.framework'
 end
