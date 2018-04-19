@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Billyhq/TALVoiceEvalSDK.git", :tag => s.version }
 
   s.platform     = :ios, '8.0'
-  s.frameworks   = 'TALVoiceEvalSDK.framwork'
+  s.frameworks   = 'TALVoiceEvalSDK'
   s.vendored_frameworks = 'frameworks/TALVoiceEvalSDK.framework'
   s.resource = "resource/bundle/SingSound.Bundle"
 end
