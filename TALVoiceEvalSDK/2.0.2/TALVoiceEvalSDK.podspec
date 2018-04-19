@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   }
 
   s.author       = { 'He Qiang' => 'heqiang001@100tal.com' }
-  s.source       = { :git => "https://github.com/Billyhq/TALVoiceEvalSDK.git", :tag => s.version }
+  s.source       = { :git => "http://qiang.he@10.1.2.202/voice_eval/iOS/cocoapods/TALVoiceEvalSDK.git", :tag => s.version }
 
   s.platform     = :ios, '8.0'
   s.frameworks   = 'TALVoiceEvalSDK'
