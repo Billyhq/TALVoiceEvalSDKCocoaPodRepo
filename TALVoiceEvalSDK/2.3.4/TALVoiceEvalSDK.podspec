@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '8.0'
   s.frameworks   = 'TALVoiceEvalSDK'
-  s.vendored_libraries  = 'frameworks/TALVoiceEvalSDK.framework/TALVoiceEvalSDK'
   s.vendored_frameworks = 'frameworks/TALVoiceEvalSDK.framework'
   s.resource = "resource/bundle/SingSound.Bundle"
 end
